@@ -1,0 +1,154 @@
+/* Background */
+.user-profile {
+  background-image: url('https://media.istockphoto.com/id/1061204020/vector/abstract-guilloche-pattern.jpg?s=612x612&w=0&k=20&c=15k1tae2MN5yr2Zpow-SAwBNGMa_8EDzF3gD3nFysUQ=');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-card {
+  background: linear-gradient(to bottom right, #ffffffcc, #61cad880);
+  padding: 40px;
+  border-radius: 16px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.avatar-icon {
+  font-size: 80px;
+  color: #C8C8C8;
+  margin-bottom: 10px;
+}
+
+.btn-group {
+  margin-top: 20px;
+  background-color: #61cad8;
+}
+
+.btn {
+  background-color: #61cad8;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #4dbac6;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: linear-gradient(to bottom right, #ffffffcc, #61cad880);
+  padding: 25px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* .input-wrapper {
+  margin-bottom: 10px;
+  position: relative;
+  
+} */
+
+
+.toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px; /* zyada space nahi */
+  margin-left: 2px;
+  text-align: center;
+}
+
+
+.save-btn {
+  background-color: #61cad8;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  margin-right: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-btn {
+  background-color: grey;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Toastify__toast-container {
+  z-index: 99999 !important;
+}
+
+.toast-success {
+  background-color: #d4edda !important;
+  color: #155724 !important;
+  border-left: 6px solid #28a745;
+}
+.left-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #666;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.input-wrapper-input {
+  width: 100%;
+  padding: 10px 40px 10px 35px !important;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+

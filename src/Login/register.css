@@ -1,0 +1,128 @@
+.register-container {
+  background-image: url('https://media.istockphoto.com/id/1061204020/vector/abstract-guilloche-pattern.jpg?s=612x612&w=0&k=20&c=15k1tae2MN5yr2Zpow-SAwBNGMa_8EDzF3gD3nFysUQ=');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.register-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 40px;  
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.input-wrapper .icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 16px;
+}
+
+.toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #555;
+  font-size: 16px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 15px;
+}
+
+.checkbox-wrapper input[type='checkbox'] {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  accent-color: #61cad8;
+}
+
+.checkbox-wrapper label {
+  font-size: 14px;
+  color: #333;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #61cad8;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #53b5c2;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .register-form {
+    padding: 25px 15px;
+  }
+
+  .register-form input,
+  .register-form button {
+    font-size: 14px;
+  }
+
+  .checkbox-wrapper label {
+    font-size: 13px;
+  }
+}

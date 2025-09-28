@@ -1,0 +1,53 @@
+/* Full page background */
+.contact-detail-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: url('https://media.istockphoto.com/id/1061204020/vector/abstract-guilloche-pattern.jpg?s=612x612&w=0&k=20&c=15k1tae2MN5yr2Zpow-SAwBNGMa_8EDzF3gD3nFysUQ=') no-repeat center center/cover;
+}
+
+/* Card with gradient background like Change Password screen */
+.contact-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom right, #ffffffcc, #61cad880);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading style */
+/* .contact-card h3 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  text-align: center;
+} */
+
+/* Text rows */
+.contact-card p {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+/* Label style (left side) */
+.contact-card strong {
+  display: inline-block;
+  min-width: 120px;
+  font-weight: 600;
+}
+
+/* Badge for labels like Work / Personal */
+.badge-label {
+  background-color: #17a2b8;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  margin-left: 8px;
+}

@@ -1,0 +1,158 @@
+.login-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  padding-right: 90px;
+  overflow: hidden;
+}
+
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 50%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+.login-form {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 500px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  /* width: 100%; */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+.extra-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+  
+}
+
+.forgot-link {
+  color: #007bff;
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #61cad8;
+  color: rgb(17, 14, 14);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #61cad8;
+}
+
+
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+.extra-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between checkbox and text */
+}
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 10px 40px 10px 35px !important;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-wrapper .icon {
+  position: absolute;
+  left: 10px;
+  color: #666;
+  
+}
+
+.toggle-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #666;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+/* Fix checkbox appearance */
+.custom-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+/* Reset browser default checkbox size */
+.custom-checkbox {
+  /* width: 16px; */
+  height: 16px;
+  accent-color: #61cad8; /* Optional: checkbox color */
+  cursor: pointer;
+  margin-top: 15px;
+}
